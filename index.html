@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="btn btn-light" href="#"><i class="fab fa-instagram"></i> instagram</a>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+            <span class="navbar-text">
+                Navbar text with an inline element
+            </span>
+        </div>
+    </nav> -->
+  <nav class="navbar navbar-light bg-light pr-5 pl-5">
+    <a class="btn btn-light fonta" href="#"><i class="fab fa-instagram"></i> instagram</a>
+    <form class="form-inline">
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create a new
+        post</button>
+      <div class="dropdown">
+        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-cog"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2" style="margin: 0.125rem -132px 0px;">
+          <button class="dropdown-item" type="button">Action</button>
+          <button class="dropdown-item" type="button">Another action</button>
+          <button class="dropdown-item" type="button">Something else here</button>
+        </div>
+      </div>
+    </form>
+  </nav>
+  <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active btn btn-outline-dark" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+        role="tab" aria-controls="pills-home" aria-selected="true">
+        <i class="fas fa-th"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link btn btn-outline-dark" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+        role="tab" aria-controls="pills-profile" aria-selected="false">
+        <i class="fas fa-square"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="container-fluid pr-5 pl-5">
+        <div class="row">
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+          <div class="col-4 p-1">
+            <img src="https://picsum.photos/seed/picsum/500/300" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane bg-light fade pt-5" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="card mx-auto mb-5" style="width: 50rem;">
+        <!-- <div class="card-header">My First photo <span>12/14</span></div> -->
+        <div class="card-header">
+          <div class="row mx-md-n5">
+            <div class="col-10">
+              <div class="p-1">My First photo</div>
+            </div>
+            <div class="col-2 text-right">
+              <div class="p-1"><span>12/14</span></div>
+            </div>
+          </div>
+        </div>
+        <img src="https://picsum.photos/seed/picsum/500/300" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">230 likes</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <div class="row mx-md-n5">
+            <div class="col-11">
+              <div class="p-1"><i class="far fa-heart"></i> <span>Comment...</span></div>
+            </div>
+            <div class="col-1">
+              <div class="p-1"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mx-auto mb-5" style="width: 50rem;">
+        <!-- <div class="card-header">My First photo <span>12/14</span></div> -->
+        <div class="card-header">
+          <div class="row mx-md-n5">
+            <div class="col-10">
+              <div class="p-1">My First photo</div>
+            </div>
+            <div class="col-2 text-right">
+              <div class="p-1"><span>12/14</span></div>
+            </div>
+          </div>
+        </div>
+        <img src="https://picsum.photos/seed/picsum/500/300" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">230 likes</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <div class="row mx-md-n5">
+            <div class="col-11">
+              <div class="p-1"><i class="far fa-heart"></i> <span>Comment...</span></div>
+            </div>
+            <div class="col-1">
+              <div class="p-1"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mx-auto mb-5" style="width: 50rem;">
+        <!-- <div class="card-header">My First photo <span>12/14</span></div> -->
+        <div class="card-header">
+          <div class="row mx-md-n5">
+            <div class="col-10">
+              <div class="p-1">My First photo</div>
+            </div>
+            <div class="col-2 text-right">
+              <div class="p-1"><span>12/14</span></div>
+            </div>
+          </div>
+        </div>
+        <img src="https://picsum.photos/seed/picsum/500/300" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">230 likes</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <div class="row mx-md-n5">
+            <div class="col-11">
+              <div class="p-1"><i class="far fa-heart"></i> <span>Comment...</span></div>
+            </div>
+            <div class="col-1">
+              <div class="p-1"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <input type="text" class="form-control" id="formGroupExampleInput">
+          <div class="mt-2">
+            <button type="button" class="btn btn-outline-dark"><i class="fas fa-camera"></i></button>
+            <button type="button" class="btn btn-outline-dark"><i class="fas fa-map-marker-alt"></i></button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-success">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/32991f6bf6.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
